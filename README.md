@@ -10,6 +10,7 @@ Requirements to build a skill:
 a) Sign up for an account on the Alexa developer console. The console is where you will build and optimize your skill.
 
 b) An internet-accessible endpoint for hosting your backend cloud-based service. Your backend skill code is usually a Lambda function.
+
 c) Development environment appropriate for the programming language you plan to use. Lambda natively supports Java, Go, PowerShell, Node.js, C#, Python, and Ruby and provides a runtime API.
 
 d) Publicly accessible website to host any images, audio files, or video files used in your skill. If you host your skill backend with the Alexa-hosted hosting option, an Amazon Simple Storage Service (Amazon S3) will be provisioned for you. If you use another hosting option, such as AWS Lambda, you may use Amazon S3 to host files used in your skill. 
